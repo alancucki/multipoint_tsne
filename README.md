@@ -9,10 +9,19 @@ e.g., polysemic words, pictures of multiple classes, etc.
 
 As this is experimental code, feel free to submit features and bugfixes.
 
+<p align="center"><img src="https://github.com/alancucki/multipoint_tsne/raw/master/words.png" /></p>
+
 ## Requirements
 
-* Theano
+* NumPy
 * scikit-learn
+* SciPy
+* Theano
+
+Cython extensions need to be compiled beforehand
+```
+python setup.py build_ext
+```
 
 ## Usage
 
